@@ -1,20 +1,23 @@
 module.exports = {
-  future: {
-    removeDeprecatedGapUtilities: true,
-    purgeLayersByDefault: true,
-  },
-  purge: [
-    './layouts/**/*.{js,ts,jsx,tsx}',
-    './components/**/*.{js,ts,jsx,tsx}',
-    './pages/**/*.{js,ts,jsx,tsx}'
+  content: [
+    './pages/**/*.{js,ts,jsx,tsx}',
+    './components/**/*.{js,ts,jsx,tsx}'
   ],
-  theme: {
-    extend: {
-      colors: {
-        'accent-1': '#333',
-      },
-    },
+  plugins: [require('daisyui')],
+  daisyui: {
+    themes: [
+      {
+        mytheme: {
+          "primary": "#501A82",
+          "secondary": "#175E6E",
+          "accent": "#1FB2A6",
+          "neutral": "#191D24",
+          "base-100": "#2A303C",
+          "info": "#0e7490",
+          "success": "#15803d",
+          "warning": "#facc15",
+          "error": "#EB1313",
+        },
+      },],
   },
-  variants: {},
-  plugins: [],
-}
+};
