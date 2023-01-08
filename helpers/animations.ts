@@ -71,7 +71,7 @@ export const mainLoop = (loopCallback?: () => void) => {
             duration: 750,
             translateY: "-150%",
           },
-          "+=10000"
+          "+=30000"
         )
         .add(
           {
