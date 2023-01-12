@@ -7,12 +7,12 @@ const VoceSabia: React.FC<VoceSabiaProps> = ({ fato }) => (
     id="aviso"
     className="alert shadow-lg flex-col items-start bg-default"
   >
-    <div className="flex">
+    <div className="flex items-center">
       <svg
         xmlns="http://www.w3.org/2000/svg"
         fill="none"
         viewBox="0 0 24 24"
-        className="stroke-info flex-shrink-0 w-6 h-6 mr-3"
+        className="stroke-info flex-shrink-0 w-6 h-6 mr-2"
       >
         <path
           strokeLinecap="round"
