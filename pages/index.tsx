@@ -65,6 +65,10 @@ const Home: React.FC = () => {
     return unsubscribe;
   }, []);
 
+  useEffect(() => {
+    selecionarNovoFato();
+  }, [data]);
+
   const selecionarNovoFato = () => {
     const { data } = ref;
 
