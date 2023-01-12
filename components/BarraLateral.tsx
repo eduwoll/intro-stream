@@ -18,7 +18,7 @@ const BarraLateral: React.FC = () => (
     </div>
     
     <div className="fixed top-0 right-8 h-screen flex flex-col justify-center items-end">
-      <Social className="redes" label="/TabernáculodaFé" Icon={YouTubeIcon} vermelho />
+      <Social className="redes" label="/@Eucreioig" Icon={YouTubeIcon} vermelho />
       <Social className="redes" label="@eucreio.ig" Icon={InstagramIcon} />
       <Social className="redes" label="/eucreio.ig" Icon={FacebookIcon} />
     </div>
