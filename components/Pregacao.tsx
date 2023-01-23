@@ -29,7 +29,11 @@ const Pregacao: React.FC<PregacaoProps> = ({ pregacao, biblia }) => (
 
       <div className="ml-3 -mr-3 text-lg">
         <div className="font-bold mb-2">{biblia.titulo}</div>
-        <div>{biblia.texto}</div>
+        <div>
+          {biblia.texto.split("\n").map((t) => (
+            <p style={{ minHeight: 10 }}>{t}</p>
+          ))}
+        </div>
       </div>
     </div>
   </div>
