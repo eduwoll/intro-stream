@@ -33,7 +33,7 @@ const igrejas: Igreja[] = [
     end: "Rua Rio Grande do Norte, 230 - Túnel Verde",
     cultos: [
       { dia: "Quarta", hora: "19:30" },
-      { dia: "Domingo", hora: "19:30" },
+      { dia: "Sábado", hora: "19:30" },
     ],
   },
   {
