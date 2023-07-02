@@ -40,7 +40,7 @@ const igrejas: Igreja[] = [
     img: "https://placeimg.com/256/400/arch",
     cidade: "Osório",
     end: "Rua Passinhos, 756 - Bairro Primavera",
-    cultos: [{ dia: "Domingo", hora: "09:00" }],
+    cultos: [{ dia: "Quinta", hora: "19:30" }],
   },
   {
     img: "https://placeimg.com/256/400/arch",
